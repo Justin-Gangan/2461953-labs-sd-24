@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<style>
+
+    .center-text{
+        text-align: center;
+    }
+
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: white;
+        margin: 0;
+        padding: 0;
+    }
+
+    header{
+        background-color: black;
+        color: white;
+        padding: 10px 10px ;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    header a{
+        color: white;
+        padding: 10px 10px;
+    }
+
+    header a:last-child{
+        margin-left: auto;
+    }
+
+
+    footer{
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .center-image{
+        margin-left: auto;
+        margin-right: auto;
+        width: 600px;
+        height: 400px;
+    }
+
+
+    table{
+        border-collapse: collapse;
+        width: 90%;
+        margin-left: 5%;
+        margin-bottom: 20px;
+    }
+
+    table, th, td{
+        border: 1px solid black;
+    }
+
+    th, td{
+        padding: 10px;
+        text-align: center;
+    }
+
+    .vertical-line{
+        border-left: 2px solid black;
+    }
+
+    .flex-container{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+    }
+
+
+</style>
+
+
+</head>
+
+<body>
+    
+
+    <header style="background-color: black;"> 
+    <h1> Welcome to Software Design Website</h1>
+    <ul class="navigation">
+        <a href="#"> About us</a>
+        <a href="#"> Services</a>
+        <a href="#"> Contact Us</a>
+    </ul>
+</header>
+
+<main>
+
+    <h2 class="center-text"> About us</h2>
+    <p class="center-text"> We are a company dedicated to providing excellent services to our customers.</p>
+
+   <center> <img width="600" src="https://www.salesforce.com/ca/blog/wp-content/uploads/sites/12/2023/10/provide-excellent-customer-service-open-graph.jpg"></center>
+  
+    <h3 class="center-text"> Our Services</h3>
+
+        <table>
+   
+            <tr>
+                <td>
+                    <p class="center-text"> Web Development</p>
+                    <p class="center-text">We specialize in creating responsive and user friendly websites.</p>
+                    <img class="center-image" src="https://timesproweb-static-backend-prod.s3.ap-south-1.amazonaws.com/Web_Development_Banner_Image_0e476d1ab6.webp" >
+                </td>
+
+                <td>
+                    <p class="center-text"> Graphic Design</p>
+                    <p class="center-text">Our talented designers can bring your ideas to life with stunning visuals.</p>
+                    <img class="center-image" src="https://images.pexels.com/photos/1601773/pexels-photo-1601773.jpeg?cs=srgb&dl=pexels-mikechie-esparagoza-1601773.jpg&fm=jpg">
+                </td>
+            </tr>
+
+        </table>
+    </main>
+
+</body>
+
+<footer style="background-color: black;">
+    <small class="center-text"> &copy; 2024 The Lucky Company. All rights reserved.</small>
+</footer>
+
+
+</html>
